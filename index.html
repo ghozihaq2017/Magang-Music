@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <!-- CSS Lokal -->
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <title>Magang</title>
+  </head>
+  <body>
+    <img
+      src="./src/img-background/Shake It Off.jpg"
+      alt="background"
+      class="background"
+      id="background"
+    />
+    <div class="content-container">
+      <h1 class="header"><span class="typing-text"></span></h1>
+      <div class="music-container" id="music-container">
+        <div class="music-info">
+          <h4 id="title" class="title">Anti-Hero</h4>
+          <div id="progress-container" class="progress-container">
+            <div class="progress" id="progress"></div>
+          </div>
+        </div>
+        <audio src="./src/music/Anti-Hero.mp3" id="audio"></audio>
+        <div class="img-container">
+          <img src="./src/images/Anti-Hero.jpg" alt="music-cover" id="cover" />
+        </div>
+        <div class="navigation">
+          <button id="prev" class="action-btn">
+            <i class="fa fa-backward" aria-hidden="true"></i>
+          </button>
+          <button id="play" class="action-btn action-btn-big">
+            <i class="fa fa-play" aria-hidden="true"></i>
+          </button>
+          <button id="next" class="action-btn">
+            <i class="fa fa-forward" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <h4 class="footer">Bandung, 28 Oktober 2022</h4>
+    </div>
+
+    <!-- CDN Type.js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <!-- Script JS -->
+    <script src="./src/js/script.js"></script>
+  </body>
+</html>
